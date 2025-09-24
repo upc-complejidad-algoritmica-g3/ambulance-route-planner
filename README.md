@@ -166,11 +166,10 @@ El objetivo principal es **reducir los tiempos de respuesta** de las ambulancias
 
 # 7. Conclusiones  
 
-El presente trabajo permitió analizar un problema real y crítico: la optimización del traslado de ambulancias hacia hospitales en situaciones de emergencia. A través del modelado de la ciudad como un grafo, se identificó que las intersecciones pueden representarse como nodos y las calles como aristas con pesos de distancia o tiempo, lo cual abre la posibilidad de aplicar algoritmos de búsqueda y optimización de rutas.  
+# 7. Conclusiones  
 
-Los apartados desarrollados muestran que, mediante el uso de técnicas de **Complejidad Algorítmica**, es posible plantear una solución computacional que reduzca de manera significativa los tiempos de respuesta en emergencias médicas. La fundamentación del problema evidencia su impacto social, mientras que el contexto académico valida la pertinencia del uso de algoritmos como Dijkstra, Bellman-Ford o Floyd-Warshall en la resolución de este tipo de casos.  
+El desarrollo de este trabajo permitió demostrar que los conceptos de complejidad algorítmica tienen un impacto directo en la solución de problemas reales. Al modelar la ciudad como un grafo y aplicar algoritmos de búsqueda de rutas, se comprobó que es posible optimizar el traslado de ambulancias hacia hospitales, reduciendo de manera significativa los tiempos de respuesta en emergencias. Esta propuesta no solo refuerza la importancia del estudio de algoritmos en la formación académica, sino que también evidencia su potencial en la mejora de servicios críticos para la sociedad. Como proyección futura, la integración de datos de tráfico en tiempo real y sistemas de geolocalización permitiría ampliar el alcance y la efectividad de la solución planteada.  
 
-En conclusión, este estudio refleja cómo los conceptos teóricos de la asignatura pueden aplicarse a problemas reales de la vida cotidiana, aportando al ámbito académico y a la sociedad. Asimismo, se plantea como trabajo futuro la integración con datos de tráfico en tiempo real y sistemas GPS, para lograr una aplicación más cercana a un entorno real.  
 
 ---
 
