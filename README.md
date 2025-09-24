@@ -85,10 +85,6 @@ Desarrollar un modelo computacional que, mediante el uso de algoritmos de comple
 
 ---
 
-
-
-
-
 # 2. Descripción del Problema  
 
 ## 2.1 Fundamentación del problema  
@@ -106,5 +102,61 @@ Desde el punto de vista computacional, este desafío puede representarse mediant
 El transporte de emergencias es un servicio esencial en la salud pública y su eficiencia tiene un impacto directo en la calidad de vida de la población. La creciente congestión vehicular y la densidad urbana hacen cada vez más difícil garantizar una respuesta rápida en emergencias, lo que subraya la necesidad de soluciones tecnológicas que apoyen la toma de decisiones.  
 
 Desde el ámbito académico, este problema es de gran relevancia porque permite aplicar de manera práctica conceptos de **Complejidad Algorítmica** y **recorridos en grafos**, fundamentales en el estudio de algoritmos y estructuras de datos.  
+
+---
+
+# 3. Descripción del Conjunto de Datos (Dataset)
+
+## 3.1. Origen y Características de los Datos
+El dataset estará compuesto por información geoespacial de la ciudad, incluyendo:  
+- **Intersecciones (nodos):** coordenadas GPS de cada cruce o punto relevante en la red vial.  
+- **Calles (aristas):** conexiones entre intersecciones, con atributos como:
+  - Distancia (en metros).  
+  - Tiempo estimado de recorrido (en segundos/minutos).  
+  - Condiciones dinámicas (tráfico en tiempo real, bloqueos, obras).  
+- **Hospitales y puntos de emergencia:** ubicaciones específicas donde deben dirigirse las ambulancias.  
+- **Eventos de emergencia (accidentes simulados o reales):** localizaciones de partida para el cálculo de rutas.  
+
+**Fuentes de datos posibles:**  
+- OpenStreetMap (OSM).  
+- Google Maps API / Here Maps API.  
+- Datos municipales de tránsito y emergencias.  
+- Datos en tiempo real de sensores IoT o cámaras urbanas.  
+
+## 3.2. Representación mediante Grafo
+La ciudad se modelará como un **grafo dirigido y ponderado**:
+
+- **Nodos (V):** representan intersecciones, hospitales y ubicaciones de accidentes.  
+- **Aristas (E):** representan calles con pesos asociados (distancia o tiempo).  
+- **Pesos dinámicos:** se ajustan en tiempo real con información de tráfico.  
+
+Ejemplo de representación en notación de grafo:  
+
+
+# 4. Propuesta: Optimización del Traslado de Ambulancias en Emergencias
+
+## 4.1. Objetivo de la Propuesta
+Desarrollar un sistema inteligente que optimice el traslado de ambulancias hacia hospitales en situaciones de emergencia.  
+El sistema modelará la ciudad como un grafo, donde las **intersecciones** serán los nodos y las **calles** las aristas ponderadas por distancia o tiempo.  
+De esta manera, se podrá calcular la **ruta más rápida** entre un accidente y el hospital más cercano, mostrando el resultado en un mapa interactivo.  
+El objetivo principal es **reducir los tiempos de respuesta** de las ambulancias y, con ello, **salvar más vidas**.
+
+## 4.2. Técnicas y Metodologías a Utilizar
+
+### 4.2.1. Técnicas
+- **Modelado de grafos**: representación de la ciudad como nodos (intersecciones) y aristas (calles).  
+- **Algoritmos para rutas**:
+  - Dijkstra para la ruta más corta.
+  - A* (A-star) para optimización con heurísticas de distancia.  
+- **Georreferenciación**: integración con sistemas de mapas (ej. OpenStreetMap, Google Maps API).  
+- **Optimización dinámica**: actualización en tiempo real considerando tráfico y bloqueos.  
+
+### 4.2.2. Metodologías
+- **Design Thinking**: para comprender las necesidades de los usuarios (paramédicos, hospitales, municipalidades).  
+- **Metodología Ágil (Scrum)**: desarrollo incremental e iterativo del sistema.  
+- **Pruebas de simulación**: escenarios controlados que recreen emergencias urbanas para validar rutas.  
+- **Evaluación de impacto**: métricas de reducción de tiempos de respuesta y efectividad en traslados.  
+
+---
 
 En el ámbito social, la optimización de las rutas de ambulancias representa una mejora tangible en la atención de emergencias, al reducir los tiempos de respuesta y aumentar las probabilidades de supervivencia. Esto convierte al problema en un caso pertinente tanto para la investigación académica como para su aplicación en escenarios reales.  
