@@ -16,3 +16,44 @@
   </ul>
   <h3>Septiembre 2025</h3>
 </div>
+
+
+# Tabla de Contenido
+
+1. **Introducción**  
+   1.1 Objetivo del trabajo  
+   1.2 Alcance  
+
+2. **Descripción del Problema**  
+   - Fundamentación del problema  
+   - Contexto y relevancia  
+
+3. **Descripción del Conjunto de Datos (Dataset)**  
+   - Origen y características de los datos  
+   - Representación mediante grafo / subgrafos  
+
+4. **Propuesta**  
+   - Objetivo de la propuesta  
+   - Técnicas y metodologías a utilizar  
+
+5. **Diseño del Aplicativo**  
+   - Procesos de diseño (etapas de la ingeniería de software o análisis de algoritmos)  
+   - Arquitectura / Diagrama de solución  
+
+6. **Validación de Resultados y Pruebas**  
+   - Entradas y salidas  
+   - Interpretación de resultados  
+   - Pruebas realizadas  
+
+7. **Conclusiones**  
+   - Síntesis de resultados  
+   - Técnicas utilizadas  
+   - Posibles trabajos futuros  
+
+8. **Referencias Bibliográficas**  
+
+9. **Anexos (opcional)**  
+   - Código fuente  
+   - Dataset  
+   - Capturas de pruebas  
+   - Video de exposición (link)  
