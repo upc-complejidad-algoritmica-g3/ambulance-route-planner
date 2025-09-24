@@ -84,3 +84,27 @@ Desarrollar un modelo computacional que, mediante el uso de algoritmos de comple
 - El trabajo se limita a la simulación académica del problema y no contempla la integración en tiempo real con datos de tráfico o sistemas GPS, aunque se reconoce como posible línea de mejora futura.  
 
 ---
+
+
+
+
+
+# 2. Descripción del Problema  
+
+## 2.1 Fundamentación del problema  
+
+En las ciudades, el sistema de atención de emergencias médicas enfrenta un reto crucial: garantizar que las ambulancias lleguen en el menor tiempo posible al hospital más cercano. El tiempo de respuesta es determinante para la atención de pacientes en estado crítico, por lo que retrasos en el traslado pueden significar la diferencia entre salvar o perder una vida.  
+
+Factores como la congestión vehicular, la complejidad del trazado urbano y la falta de planificación de rutas eficientes suelen dificultar este proceso. Estos problemas aumentan los tiempos de atención y generan riesgos adicionales para los pacientes.  
+
+Desde el punto de vista computacional, este desafío puede representarse mediante un **grafo**, en el cual las intersecciones se modelan como nodos y las calles como aristas con pesos asociados a distancia o tiempo. De este modo, es posible aplicar algoritmos de búsqueda y optimización que permitan calcular la mejor ruta disponible y reducir de manera significativa los tiempos de traslado.  
+
+---
+
+## 2.2 Contexto y relevancia  
+
+El transporte de emergencias es un servicio esencial en la salud pública y su eficiencia tiene un impacto directo en la calidad de vida de la población. La creciente congestión vehicular y la densidad urbana hacen cada vez más difícil garantizar una respuesta rápida en emergencias, lo que subraya la necesidad de soluciones tecnológicas que apoyen la toma de decisiones.  
+
+Desde el ámbito académico, este problema es de gran relevancia porque permite aplicar de manera práctica conceptos de **Complejidad Algorítmica** y **recorridos en grafos**, fundamentales en el estudio de algoritmos y estructuras de datos.  
+
+En el ámbito social, la optimización de las rutas de ambulancias representa una mejora tangible en la atención de emergencias, al reducir los tiempos de respuesta y aumentar las probabilidades de supervivencia. Esto convierte al problema en un caso pertinente tanto para la investigación académica como para su aplicación en escenarios reales.  
