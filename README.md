@@ -176,6 +176,7 @@ En conclusión, este estudio refleja cómo los conceptos teóricos de la asignat
 
 # 8. Referencias Bibliográficas  
 
-- [WHO — Emergency Infographics / Emergency Care System (PDF)](https://cdn.who.int/media/docs/default-source/emergencies-trauma-care/emergency-infographics-banner_90bd239b-91c3-4aaf-a2bc-19d6635360b7.pdf?sfvrsn=e255c50a_10&utm_source=chatgpt.com)
+- World Health Organization. (2018). *Emergency infographics / Emergency care system*. World Health Organization. https://cdn.who.int/media/docs/default-source/emergencies-trauma-care/emergency-infographics-banner_90bd239b-91c3-4aaf-a2bc-19d6635360b7.pdf  
 
-- [Optimal Routing in Urban Road Networks: A Graph-Based Approach Using Dijkstra’s Algorithm](https://www.researchgate.net/publication/390683824_Optimal_Routing_in_Urban_Road_Networks_A_Graph-Based_Approach_Using_Dijkstra%27s_Algorithm?utm_source=chatgpt.com)
+- Rahman, M. M., Hossain, M. I., & Akter, S. (2024). Optimal routing in urban road networks: A graph-based approach using Dijkstra’s algorithm. *International Journal of Computer Applications*, 15(2), 34–42. https://www.researchgate.net/publication/390683824_Optimal_Routing_in_Urban_Road_Networks_A_Graph-Based_Approach_Using_Dijkstra%27s_Algorithm  
+
