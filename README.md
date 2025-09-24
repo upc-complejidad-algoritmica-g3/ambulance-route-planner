@@ -159,4 +159,23 @@ El objetivo principal es **reducir los tiempos de respuesta** de las ambulancias
 
 ---
 
-En el ámbito social, la optimización de las rutas de ambulancias representa una mejora tangible en la atención de emergencias, al reducir los tiempos de respuesta y aumentar las probabilidades de supervivencia. Esto convierte al problema en un caso pertinente tanto para la investigación académica como para su aplicación en escenarios reales.  
+
+
+
+
+
+# 7. Conclusiones  
+
+El presente trabajo permitió analizar un problema real y crítico: la optimización del traslado de ambulancias hacia hospitales en situaciones de emergencia. A través del modelado de la ciudad como un grafo, se identificó que las intersecciones pueden representarse como nodos y las calles como aristas con pesos de distancia o tiempo, lo cual abre la posibilidad de aplicar algoritmos de búsqueda y optimización de rutas.  
+
+Los apartados desarrollados muestran que, mediante el uso de técnicas de **Complejidad Algorítmica**, es posible plantear una solución computacional que reduzca de manera significativa los tiempos de respuesta en emergencias médicas. La fundamentación del problema evidencia su impacto social, mientras que el contexto académico valida la pertinencia del uso de algoritmos como Dijkstra, Bellman-Ford o Floyd-Warshall en la resolución de este tipo de casos.  
+
+En conclusión, este estudio refleja cómo los conceptos teóricos de la asignatura pueden aplicarse a problemas reales de la vida cotidiana, aportando al ámbito académico y a la sociedad. Asimismo, se plantea como trabajo futuro la integración con datos de tráfico en tiempo real y sistemas GPS, para lograr una aplicación más cercana a un entorno real.  
+
+---
+
+# 8. Referencias Bibliográficas  
+
+- [WHO — Emergency Infographics / Emergency Care System (PDF)](https://cdn.who.int/media/docs/default-source/emergencies-trauma-care/emergency-infographics-banner_90bd239b-91c3-4aaf-a2bc-19d6635360b7.pdf?sfvrsn=e255c50a_10&utm_source=chatgpt.com)
+
+- [Optimal Routing in Urban Road Networks: A Graph-Based Approach Using Dijkstra’s Algorithm](https://www.researchgate.net/publication/390683824_Optimal_Routing_in_Urban_Road_Networks_A_Graph-Based_Approach_Using_Dijkstra%27s_Algorithm?utm_source=chatgpt.com)
