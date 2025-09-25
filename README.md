@@ -155,8 +155,31 @@ El objetivo principal es **reducir los tiempos de respuesta** de las ambulancias
 - **Design Thinking**: para comprender las necesidades de los usuarios (paramédicos, hospitales, municipalidades).  
 - **Metodología Ágil (Scrum)**: desarrollo incremental e iterativo del sistema.  
 - **Pruebas de simulación**: escenarios controlados que recreen emergencias urbanas para validar rutas.  
-- **Evaluación de impacto**: métricas de reducción de tiempos de respuesta y efectividad en traslados.  
+- **Evaluación de impacto**: métricas de reducción de tiempos de respuesta y efectividad en traslados.
 
+---
+
+
+# 5. Diseño del Aplicativo
+
+## 5.1. Procesos de Diseño
+
+### 5.1.1. Análisis de Requerimientos
+**Requerimientos Funcionales:**
+- El sistema debe calcular la ruta más rápida desde un punto de emergencia hasta el hospital más cercano
+- Debe representar la ciudad como un grafo con intersecciones como nodos y calles como aristas
+- Debe mostrar visualmente la ruta óptima en un mapa interactivo
+- Debe permitir la entrada de coordenadas GPS o selección manual del punto de emergencia
+- Debe considerar múltiples hospitales y seleccionar automáticamente el más cercano o conveniente
+
+**Requerimientos No Funcionales:**
+- Tiempo de respuesta: < 3 segundos para calcular rutas
+- Precisión: margen de error < 5% en cálculos de distancia/tiempo
+- Escalabilidad: soportar grafos de hasta 10,000 nodos
+- Usabilidad: interfaz intuitiva para paramédicos y operadores de emergencia
+- Disponibilidad: 99.9% de tiempo operativo
+
+  
 ---
 
 
