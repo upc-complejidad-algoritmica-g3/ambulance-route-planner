@@ -130,8 +130,10 @@ La ciudad se modelará como un **grafo dirigido y ponderado**:
 - **Aristas (E):** representan calles con pesos asociados (distancia o tiempo).  
 - **Pesos dinámicos:** se ajustan en tiempo real con información de tráfico.  
 
-Ejemplo de representación en notación de grafo:  
+**Figura 1.** Representación esquemática del grafo de la ciudad.  
+<img width="2385" height="1525" alt="grafo_hospitales" src="https://github.com/user-attachments/assets/e916410b-e3f7-47c3-839d-2559dddebc42" />
 
+Los nodos grises representan intersecciones viales, el nodo azul corresponde al punto de accidente (origen de la emergencia) y el nodo rojo identifica al hospital (destino de la ruta). Las aristas corresponden a calles con pesos que indican el tiempo estimado de recorrido en minutos.
 
 # 4. Propuesta: Optimización del Traslado de Ambulancias en Emergencias
 
