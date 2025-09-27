@@ -181,7 +181,25 @@ El objetivo principal es **reducir los tiempos de respuesta** de las ambulancias
 - Usabilidad: interfaz intuitiva para paramédicos y operadores de emergencia
 - Disponibilidad: 99.9% de tiempo operativo
 
-  
+### 5.1.2. Diseño de Sistema
+**Arquitectura por Capas:**
+1. **Capa de Presentación:** Interfaz web/móvil con mapa interactivo
+2. **Capa de Lógica de Negocio:** Algoritmos de búsqueda de rutas (Dijkstra, A*)
+3. **Capa de Datos:** Base de datos geoespacial con información de nodos y aristas
+4. **Capa de Servicios:** APIs para integración con servicios de mapas externos
+
+### 5.1.3. Análisis de Algoritmos
+**Complejidad Temporal:**
+- **Dijkstra:** O((V + E) log V) donde V = nodos, E = aristas
+- **A*:** O(b^d) donde b = factor de ramificación, d = profundidad de la solución
+- **Búsqueda de hospital más cercano:** O(H × V) donde H = número de hospitales
+
+
+**Complejidad Espacial:**
+- Almacenamiento del grafo: O(V + E)
+- Estructuras auxiliares (cola de prioridad, visitados): O(V)
+
+
 ---
 
 
