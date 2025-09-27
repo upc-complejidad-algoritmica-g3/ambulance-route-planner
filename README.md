@@ -199,7 +199,53 @@ El objetivo principal es **reducir los tiempos de respuesta** de las ambulancias
 - Almacenamiento del grafo: O(V + E)
 - Estructuras auxiliares (cola de prioridad, visitados): O(V)
 
+## 5.2. Arquitectura / Diagrama de Solución
+
 ### 5.2.1. Arquitectura del Sistema
+
+```
+┌────────────────────────────────────────────────────────────┐
+│                    CAPA DE PRESENTACIÓN                    │
+├────────────────────────────────────────────────────────────┤
+│  Interfaz Web/Móvil                                        │
+│  - Mapa Interactivo                                        │
+│  - Panel de Control de Emergencias                         │
+│  - Visualización de Rutas Óptimas                          │
+└────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+┌────────────────────────────────────────────────────────────┐
+│                 CAPA DE LÓGICA DE NEGOCIO                  │
+├────────────────────────────────────────────────────────────┤
+│  Motor de Cálculo de Rutas                                 │
+│  ├── Algoritmo de Dijkstra                                 │
+│  ├── Algoritmo A* (A-star)                                 │
+│  ├── Selector de Hospital Óptimo                           │
+│  └── Procesador de Condiciones de Tráfico                  │
+└────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+┌────────────────────────────────────────────────────────────┐
+│                    CAPA DE SERVICIOS                       │
+├────────────────────────────────────────────────────────────┤
+│  API de Mapas                                              │
+│  API de Tráfico en Tiempo Real                             │
+│  Servicio de Geolocalización                               │
+│  Servicio de Notificaciones                                │
+└────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+┌────────────────────────────────────────────────────────────┐
+│                     CAPA DE DATOS                          │
+├────────────────────────────────────────────────────────────┤
+│  Base de Datos Geoespacial                                 │
+│  ├── Tabla de Nodos (Intersecciones)                       │
+│  ├── Tabla de Aristas (Calles)                             │
+│  ├── Tabla de Hospitales                                   │
+│  └── Tabla de Eventos de Emergencia                        │
+└────────────────────────────────────────────────────────────┘
+```
+
 
 ### 5.2.2. Flujo de Procesamiento
 
