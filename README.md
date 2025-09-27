@@ -199,6 +199,50 @@ El objetivo principal es **reducir los tiempos de respuesta** de las ambulancias
 - Almacenamiento del grafo: O(V + E)
 - Estructuras auxiliares (cola de prioridad, visitados): O(V)
 
+### 5.2.1. Arquitectura del Sistema
+
+### 5.2.2. Flujo de Procesamiento
+
+### 5.2.3. Modelado del Grafo
+
+**Estructura de Datos:**
+```python
+class Nodo:
+    def __init__(self, id, latitud, longitud, tipo):
+        self.id = id
+        self.latitud = latitud
+        self.longitud = longitud
+        self.tipo = tipo  # 'interseccion', 'hospital', 'emergencia'
+        self.vecinos = []
+
+class Arista:
+    def __init__(self, origen, destino, distancia, tiempo_base):
+        self.origen = origen
+        self.destino = destino
+        self.distancia = distancia  # metros
+        self.tiempo_base = tiempo_base  # segundos
+        self.factor_trafico = 1.0  # multiplicador dinámico
+
+class Grafo:
+    def __init__(self):
+        self.nodos = {}
+        self.aristas = []
+        self.hospitales = []
+```
+
+
+### 5.2.4. Componentes Principales
+
+**1. Motor de Algoritmos:**
+- Implementación de Dijkstra para ruta más corta
+- Implementación de A* con heurística de distancia euclidiana
+- Algoritmo de selección de hospital óptimo
+
+**2. Interfaz de Usuario:**
+
+**3. Sistema de Datos:**
+
+**4. Integración Externa:**
 
 ---
 
