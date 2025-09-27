@@ -275,6 +275,10 @@ class Grafo:
         self.aristas = []
         self.hospitales = []
 ```
+**Representación Matemática:**
+- **G = (V, E)** donde:
+    - **V**: conjunto de nodos (intersecciones, hospitales)
+    - **E**: conjunto de aristas (calles) con pesos w(u,v)
 
 
 ### 5.2.4. Componentes Principales
