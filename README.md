@@ -138,6 +138,7 @@ Los nodos grises representan intersecciones viales, el nodo azul corresponde al 
 
 En primer lugar, se utilizó la red vial completa de **Lima Metropolitana** obtenida desde **OpenStreetMap** para garantizar un dataset suficientemente grande y realista. El grafo resultante contiene más de **X nodos** y **Y aristas**, lo que asegura cumplir con el requisito mínimo de 1500 nodos establecidos en el trabajo. Esta visualización global (**Figura 2**) permite evidenciar la complejidad de la red vial de la ciudad.
 
+<img width="997" height="666" alt="image" src="https://github.com/user-attachments/assets/ee2826ad-485a-4f1e-9883-86e1f257683e" />
 
 
 Sin embargo, debido a la densidad del grafo completo, se optó por representar también un **subgrafo correspondiente al distrito de Miraflores** (**Figura 3**). Esta visualización permite ilustrar con mayor claridad el caso de uso: la **planificación de rutas de ambulancias hacia hospitales en situaciones de emergencia**. En este subgrafo se marcaron nodos especiales, como un **hospital (en rojo)** y un **punto de accidente (en azul)**, lo que facilita la comprensión de cómo se modela el problema en un contexto más acotado y manejable.
