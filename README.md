@@ -135,6 +135,17 @@ La ciudad se modelará como un **grafo dirigido y ponderado**:
 
 Los nodos grises representan intersecciones viales, el nodo azul corresponde al punto de accidente (origen de la emergencia) y el nodo rojo identifica al hospital (destino de la ruta). Las aristas corresponden a calles con pesos que indican el tiempo estimado de recorrido en minutos.
 
+
+En primer lugar, se utilizó la red vial completa de **Lima Metropolitana** obtenida desde **OpenStreetMap** para garantizar un dataset suficientemente grande y realista. El grafo resultante contiene más de **X nodos** y **Y aristas**, lo que asegura cumplir con el requisito mínimo de 1500 nodos establecidos en el trabajo. Esta visualización global (**Figura 2**) permite evidenciar la complejidad de la red vial de la ciudad.
+
+
+
+Sin embargo, debido a la densidad del grafo completo, se optó por representar también un **subgrafo correspondiente al distrito de Miraflores** (**Figura 3**). Esta visualización permite ilustrar con mayor claridad el caso de uso: la **planificación de rutas de ambulancias hacia hospitales en situaciones de emergencia**. En este subgrafo se marcaron nodos especiales, como un **hospital (en rojo)** y un **punto de accidente (en azul)**, lo que facilita la comprensión de cómo se modela el problema en un contexto más acotado y manejable.
+
+<img width="899" height="755" alt="image" src="https://github.com/user-attachments/assets/118cf804-3334-4f1f-a5b3-83a08287ac1a" />
+
+
+
 # 4. Propuesta: Optimización del Traslado de Ambulancias en Emergencias
 
 ## 4.1. Objetivo de la Propuesta
