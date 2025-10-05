@@ -301,10 +301,19 @@ class Grafo:
 - Algoritmo de selección de hospital óptimo
 
 **2. Interfaz de Usuario:**
+- Mapa interactivo con capacidad de zoom y navegación
+- Marcadores para ambulancia, accidente y hospitales
+- Panel de control con información de ruta y tiempo estimado
 
 **3. Sistema de Datos:**
+- Base de datos espacial para almacenar grafo urbano
+- Cache de rutas frecuentes para optimizar rendimiento
+- Histórico de emergencias para análisis estadístico
 
 **4. Integración Externa:**
+- Conectores para APIs de mapas y tráfico
+- Sistema de notificaciones para alertas
+- Interfaz con sistemas de emergencia existentes
 
 ---
 
