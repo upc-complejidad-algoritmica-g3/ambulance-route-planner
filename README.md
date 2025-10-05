@@ -328,7 +328,7 @@ class Grafo:
 
 El desarrollo de este trabajo permitió demostrar que los conceptos de complejidad algorítmica tienen un impacto directo en la solución de problemas reales. Al modelar la ciudad como un grafo y aplicar algoritmos de búsqueda de rutas, se comprobó que es posible optimizar el traslado de ambulancias hacia hospitales, reduciendo de manera significativa los tiempos de respuesta en emergencias. Esta propuesta no solo refuerza la importancia del estudio de algoritmos en la formación académica, sino que también evidencia su potencial en la mejora de servicios críticos para la sociedad. Como proyección futura, la integración de datos de tráfico en tiempo real y sistemas de geolocalización permitiría ampliar el alcance y la efectividad de la solución planteada.  
 
-
+Asimismo, se recomienda considerar como factor adicional el nivel de congestión hospitalaria al momento de seleccionar el destino. Por ejemplo, si un hospital se encuentra próximo a su capacidad máxima de atención (por ejemplo, 100 pacientes sobre un total de 120), el sistema debería optar automáticamente por otro hospital con mayor disponibilidad. Incluir este criterio mejoraría la eficiencia global del modelo y garantizaría una atención médica más oportuna.
 ---
 
 # 8. Referencias Bibliográficas  
