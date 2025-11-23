@@ -17,7 +17,7 @@
   <h3>Septiembre 2025</h3>
 </div>
 
-
+<div style="page-break-after: always;"></div>
 # Tabla de Contenido
 
 1. **Introducción**  
@@ -52,7 +52,7 @@
 
 8. **Referencias Bibliográficas**  
 
-9. **Anexos (opcional)**  
+9. **Anexos**  
    - Código fuente  
    - Dataset  
    - Capturas de pruebas  
@@ -60,7 +60,7 @@
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 # 1. Introducción  
 
@@ -81,8 +81,9 @@ Desarrollar un modelo computacional que, mediante el uso de algoritmos de comple
 - El sistema se enfoca en la representación de una ciudad como grafo, considerando intersecciones como nodos y calles como aristas ponderadas por distancia o tiempo.  
 - Se utilizarán algoritmos de búsqueda de rutas en grafos para determinar la ruta más corta o más rápida hacia el hospital más cercano.  
 - Los resultados se mostrarán mediante una visualización gráfica/mapa que refleje las rutas propuestas.  
-- El trabajo se limita a la simulación académica del problema y no contempla la integración en tiempo real con datos de tráfico o sistemas GPS, aunque se reconoce como posible línea de mejora futura.  
-
+- El trabajo se limita a la simulación académica del problema y no contempla la integración en tiempo real con datos de tráfico o sistemas GPS, aunque se reconoce como posible línea de mejora futura.
+- 
+<div style="page-break-after: always;"></div>
 ---
 
 # 2. Descripción del Problema  
@@ -102,7 +103,7 @@ Desde el punto de vista computacional, este desafío puede representarse mediant
 El transporte de emergencias es un servicio esencial en la salud pública y su eficiencia tiene un impacto directo en la calidad de vida de la población. La creciente congestión vehicular y la densidad urbana hacen cada vez más difícil garantizar una respuesta rápida en emergencias, lo que subraya la necesidad de soluciones tecnológicas que apoyen la toma de decisiones.  
 
 Desde el ámbito académico, este problema es de gran relevancia porque permite aplicar de manera práctica conceptos de **Complejidad Algorítmica** y **recorridos en grafos**, fundamentales en el estudio de algoritmos y estructuras de datos.  
-
+<div style="page-break-after: always;"></div>
 ---
 
 # 3. Descripción del Conjunto de Datos (Dataset)
@@ -153,7 +154,7 @@ El grafo generado es del tipo "MultiDiGraph" (Grafo dirigido múltiple), procesa
 - **Hospitales y Clínicas Identificados:** Establecimientos de salud.
 
 Cada arista cuenta con un peso (`weight`) calculado en función de la distancia geodésica y la velocidad promedio de la vía, representando el tiempo de traslado en minutos.
-
+<div style="page-break-after: always;"></div>
 # 4. Propuesta: Optimización del Traslado de Ambulancias en Emergencias
 
 ## 4.1. Objetivo de la Propuesta
@@ -177,7 +178,7 @@ El objetivo principal es **reducir los tiempos de respuesta** de las ambulancias
 - **Metodología Ágil (Scrum)**: desarrollo incremental e iterativo del sistema.  
 - **Pruebas de simulación**: escenarios controlados que recreen emergencias urbanas para validar rutas.  
 - **Evaluación de impacto**: métricas de reducción de tiempos de respuesta y efectividad en traslados.
-
+<div style="page-break-after: always;"></div>
 ---
 
 
@@ -322,6 +323,7 @@ class Grafo:
 - Sistema de notificaciones para alertas
 - Interfaz con sistemas de emergencia existentes
 
+<div style="page-break-after: always;"></div>
 ---
 
 # 6. Validación de Resultados y Pruebas
@@ -404,7 +406,7 @@ El algoritmo implementado es **Dijkstra** utilizando una cola de prioridad (Heap
 
 Dado que nuestro grafo tiene $V \approx 16,695$, una búsqueda lineal o ineficiente tomaría segundos. Sin embargo, los resultados experimentales en el equipo de pruebas (Intel i5) muestran un promedio de **~40 milisegundos** por consulta. Esto valida que la solución es computacionalmente eficiente y viable para su implementación en sistemas de despacho de ambulancias en tiempo real.
 
-
+<div style="page-break-after: always;"></div>
 # 7. Conclusiones  
 
 El desarrollo de este trabajo permitió demostrar que los conceptos de complejidad algorítmica tienen un impacto directo en la solución de problemas reales. Al modelar la ciudad como un grafo y aplicar algoritmos de búsqueda de rutas, se comprobó que es posible optimizar el traslado de ambulancias hacia hospitales, reduciendo de manera significativa los tiempos de respuesta en emergencias. Esta propuesta no solo refuerza la importancia del estudio de algoritmos en la formación académica, sino que también evidencia su potencial en la mejora de servicios críticos para la sociedad. Como proyección futura, la integración de datos de tráfico en tiempo real y sistemas de geolocalización permitiría ampliar el alcance y la efectividad de la solución planteada.  
@@ -417,6 +419,7 @@ Asimismo, se recomienda considerar como factor adicional el nivel de congestión
 
 - Rahman, M. M., Hossain, M. I., & Akter, S. (2024). Optimal routing in urban road networks: A graph-based approach using Dijkstra’s algorithm. *International Journal of Computer Applications*, 15(2), 34–42. https://www.researchgate.net/publication/390683824_Optimal_Routing_in_Urban_Road_Networks_A_Graph-Based_Approach_Using_Dijkstra%27s_Algorithm  
 
+<div style="page-break-after: always;"></div>
 # 9. Anexos
 
 ## Código Fuente (Repositorios GitHub)
