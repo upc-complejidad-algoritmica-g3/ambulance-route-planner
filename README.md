@@ -18,6 +18,7 @@
 </div>
 
 <div style="page-break-after: always;"></div>
+
 # Tabla de Contenido
 
 1. **Introducción**  
@@ -407,6 +408,7 @@ El algoritmo implementado es **Dijkstra** utilizando una cola de prioridad (Heap
 Dado que nuestro grafo tiene $V \approx 16,695$, una búsqueda lineal o ineficiente tomaría segundos. Sin embargo, los resultados experimentales en el equipo de pruebas (Intel i5) muestran un promedio de **~40 milisegundos** por consulta. Esto valida que la solución es computacionalmente eficiente y viable para su implementación en sistemas de despacho de ambulancias en tiempo real.
 
 <div style="page-break-after: always;"></div>
+
 # 7. Conclusiones  
 
 El desarrollo de este trabajo permitió demostrar que los conceptos de complejidad algorítmica tienen un impacto directo en la solución de problemas reales. Al modelar la ciudad como un grafo y aplicar algoritmos de búsqueda de rutas, se comprobó que es posible optimizar el traslado de ambulancias hacia hospitales, reduciendo de manera significativa los tiempos de respuesta en emergencias. Esta propuesta no solo refuerza la importancia del estudio de algoritmos en la formación académica, sino que también evidencia su potencial en la mejora de servicios críticos para la sociedad. Como proyección futura, la integración de datos de tráfico en tiempo real y sistemas de geolocalización permitiría ampliar el alcance y la efectividad de la solución planteada.  
@@ -420,6 +422,7 @@ Asimismo, se recomienda considerar como factor adicional el nivel de congestión
 - Rahman, M. M., Hossain, M. I., & Akter, S. (2024). Optimal routing in urban road networks: A graph-based approach using Dijkstra’s algorithm. *International Journal of Computer Applications*, 15(2), 34–42. https://www.researchgate.net/publication/390683824_Optimal_Routing_in_Urban_Road_Networks_A_Graph-Based_Approach_Using_Dijkstra%27s_Algorithm  
 
 <div style="page-break-after: always;"></div>
+
 # 9. Anexos
 
 ## Código Fuente (Repositorios GitHub)
