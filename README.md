@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Universidad Peruana de Ciencias Aplicadas</h1>
-  <img src="assets/chapter01/upc-logov.png" alt="UPC Logo" height="200">
+  <img src="assets/upc_logo.png" alt="UPC Logo" height="200">
   <h2>Carrera: Ingeniería de Software</h2>
   <h2>Ciclo: 2025-20</h2>
   <h2>Curso: 1ACC0184 Complejidad Algoritmica</h2>
@@ -133,19 +133,29 @@ La ciudad se modelará como un **grafo dirigido y ponderado**:
 - **Pesos dinámicos:** se ajustan en tiempo real con información de tráfico.  
 
 **Figura 1.** Representación esquemática del grafo de la ciudad.  
-<img width="2385" height="1525" alt="grafo_hospitales" src="https://github.com/user-attachments/assets/e916410b-e3f7-47c3-839d-2559dddebc42" />
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/e916410b-e3f7-47c3-839d-2559dddebc42" alt="Esquema del Grafo" width="600">
+  <p><em>Figura 1. Representación esquemática del grafo de la ciudad.</em></p>
+</div>
 
 Los nodos grises representan intersecciones viales, el nodo azul corresponde al punto de accidente (origen de la emergencia) y el nodo rojo identifica al hospital (destino de la ruta). Las aristas corresponden a calles con pesos que indican el tiempo estimado de recorrido en minutos.
 
 
 En primer lugar, se utilizó la red vial completa de **Lima Metropolitana** obtenida desde **OpenStreetMap** para garantizar un dataset suficientemente grande y realista. El grafo resultante contiene más de **X nodos** y **Y aristas**, lo que asegura cumplir con el requisito mínimo de 1500 nodos establecidos en el trabajo. Esta visualización global (**Figura 2**) permite evidenciar la complejidad de la red vial de la ciudad.
 
-<img width="997" height="666" alt="image" src="https://github.com/user-attachments/assets/ee2826ad-485a-4f1e-9883-86e1f257683e" />
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/ee2826ad-485a-4f1e-9883-86e1f257683e" alt="Grafo Lima" width="600">
+  <p><em>Figura 2. Visualización de la red vial procesada.</em></p>
+</div>
 
 
 Sin embargo, debido a la densidad del grafo completo, se optó por representar también un **subgrafo correspondiente al distrito de Miraflores** (**Figura 3**). Esta visualización permite ilustrar con mayor claridad el caso de uso: la **planificación de rutas de ambulancias hacia hospitales en situaciones de emergencia**. En este subgrafo se marcaron nodos especiales, como un **hospital (en rojo)** y un **punto de accidente (en azul)**, lo que facilita la comprensión de cómo se modela el problema en un contexto más acotado y manejable.
 
-<img width="899" height="755" alt="image" src="https://github.com/user-attachments/assets/118cf804-3334-4f1f-a5b3-83a08287ac1a" />
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/118cf804-3334-4f1f-a5b3-83a08287ac1a" alt="Subgrafo Miraflores" width="500">
+  <p><em>Figura 3. Detalle del subgrafo en la zona de Miraflores.</em></p>
+</div>
 
 ## 3.3. Estadísticas del Grafo
 El grafo generado es del tipo "MultiDiGraph" (Grafo dirigido múltiple), procesado y limpiado para eliminar nodos aislados.
@@ -352,10 +362,10 @@ El sistema retorna la ruta óptima y las métricas asociadas al hospital selecci
 ```json
 {
   "hospital_name": "Hospital III Suarez Angamos",
-  "travel_time": 4.52,       // Minutos
-  "congestion_penalty": 0.15, // Bajo impacto (Hospital libre)
+  "travel_time": 4.52,       
+  "congestion_penalty": 0.15, 
   "total_cost": 4.67,
-  "algorithm_time_ms": 15.4   // Tiempo de ejecución
+  "algorithm_time_ms": 15.4   
 }
 ```
 
@@ -366,7 +376,10 @@ A continuación, se presentan los escenarios de prueba validados en la interfaz 
 ### Caso 1: Evasión de Hospital Saturado
 En este escenario, el usuario seleccionó un punto de accidente cercano a un centro médico. Sin embargo, el sistema detectó alta congestión (marcador Rojo).
 
-<img width="1302" height="659" alt="evidencia_2" src="https://github.com/user-attachments/assets/3f56673c-4a53-46e3-9e64-13e7df5c0cc2" />
+<div align="center">
+  <img src="assets/evidencia_2.png" alt="Caso 1: Evasión de Hospital" width="500">
+  <p><em>Figura 2. El algoritmo evita el hospital cercano (rojo) por saturación.</em></p>
+</div>
 
 
 **Interpretación:**
@@ -375,7 +388,10 @@ Como se observa en la captura, el algoritmo no eligió el hospital geográficame
 ### Caso 2: Ruta en Red Compleja
 Prueba de trazado de ruta entre distritos (ej. desde Miraflores hacia San Isidro).
 
-<img width="1302" height="662" alt="evidencia_3" src="https://github.com/user-attachments/assets/7896df8c-cca0-49c3-aa5d-7a0ee35065ca" />
+<div align="center">
+  <img src="assets/evidencia_3.png" alt="Caso 2: Ruta Larga" width="500">
+  <p><em>Figura 3. Ruta óptima cruzando límites distritales.</em></p>
+</div>
 
 
 **Interpretación:**
