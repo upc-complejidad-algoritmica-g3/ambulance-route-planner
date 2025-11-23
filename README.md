@@ -363,7 +363,6 @@ A continuación, se presentan los escenarios de prueba validados en la interfaz 
 ### Caso 1: Evasión de Hospital Saturado
 En este escenario, el usuario seleccionó un punto de accidente cercano a un centro médico. Sin embargo, el sistema detectó alta congestión (marcador Rojo).
 
-![Captura de pantalla mostrando el hospital cercano en rojo y la ruta yendo a uno más lejano en verde]([INSERTA TU CAPTURA DE PANTALLA AQUÍ])
 <img width="1302" height="659" alt="evidencia_2" src="https://github.com/user-attachments/assets/3f56673c-4a53-46e3-9e64-13e7df5c0cc2" />
 
 
@@ -375,7 +374,6 @@ Prueba de trazado de ruta entre distritos (ej. desde Miraflores hacia San Isidro
 
 <img width="1302" height="662" alt="evidencia_3" src="https://github.com/user-attachments/assets/7896df8c-cca0-49c3-aa5d-7a0ee35065ca" />
 
-![Captura de pantalla mostrando una ruta larga azul a través del mapa]([INSERTA TU SEGUNDA CAPTURA AQUÍ])
 
 **Interpretación:**
 La línea azul representa la secuencia de aristas seleccionadas por Dijkstra. El sistema respeta el sentido de las calles y la conectividad del grafo real descargado de OpenStreetMap.
