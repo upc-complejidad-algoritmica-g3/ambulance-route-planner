@@ -417,3 +417,19 @@ Asimismo, se recomienda considerar como factor adicional el nivel de congestión
 
 - Rahman, M. M., Hossain, M. I., & Akter, S. (2024). Optimal routing in urban road networks: A graph-based approach using Dijkstra’s algorithm. *International Journal of Computer Applications*, 15(2), 34–42. https://www.researchgate.net/publication/390683824_Optimal_Routing_in_Urban_Road_Networks_A_Graph-Based_Approach_Using_Dijkstra%27s_Algorithm  
 
+# 9. Anexos
+
+## Código Fuente (Repositorios GitHub)
+El código fuente del proyecto se encuentra organizado en dos repositorios para separar la lógica del servidor (Backend) de la interfaz de usuario (Frontend), siguiendo buenas prácticas de arquitectura de software.
+
+- **Repositorio Backend (Python/Flask):** https://github.com/upc-complejidad-algoritmica-g3/medroute-backend
+
+- **Repositorio Frontend (React/Vite):** https://github.com/upc-complejidad-algoritmica-g3/medroute-frontend
+
+## Dataset y Recursos
+- **Fuente de Datos:** OpenStreetMap (vía librería OSMnx).
+- **Librerías Principales:** NetworkX (Grafos), Leaflet (Mapas).
+
+## Video de Exposición
+*(Pendiente para la presentación final)*
+- **Enlace:** 
