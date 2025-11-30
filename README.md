@@ -453,5 +453,4 @@ El código fuente del proyecto se encuentra organizado en dos repositorios para 
 - **Librerías Principales:** NetworkX (Grafos), Leaflet (Mapas).
 
 ## Video de Exposición
-*(Pendiente para la presentación final)*
-- **Enlace:** 
+- **Enlace:** https://youtu.be/pXvycUiRl5Y 
